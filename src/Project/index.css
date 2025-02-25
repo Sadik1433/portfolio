@@ -1,0 +1,44 @@
+.blog-list{
+    min-height: 300px;
+    max-width: 290px;
+    color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+}
+.profileImage{
+    height: 200px;
+    min-width:  fit-content;
+}
+.project-name{
+    color: White;
+    font-size: 30px;
+}
+.default-name{
+    color: aqua;
+    font-size: 22px;
+    font-weight: 500;
+}
+.description{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: normal;   
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn{
+    background-color: rgb(11, 46, 241);
+    padding: 10px;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
