@@ -18,6 +18,23 @@ const blogsdata = [
     profileImage:
       "https://res.cloudinary.com/dnarxeess/image/upload/v1740319048/shoppee_mku4is.jpg",
   },
+  {
+    id: 3,
+    projectName: "Shopee",
+    description:
+      "I'm a passionate [Your Profession, e.g., Web Developer, UI/UX Designer, Software Engineer]",
+    profileImage:
+      "https://res.cloudinary.com/dnarxeess/image/upload/v1740319048/shoppee_mku4is.jpg",
+  },
+  {
+    id: 4,
+    projectName: "Shopee",
+    description:
+      "I'm a passionate [Your Profession, e.g., Web Developer, UI/UX Designer, Software Engineer]",
+    profileImage:
+      "https://res.cloudinary.com/dnarxeess/image/upload/v1740319048/shoppee_mku4is.jpg",
+  },
+
 ];
 
 const About = () => {

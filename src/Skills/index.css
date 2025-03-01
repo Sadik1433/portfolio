@@ -1,0 +1,19 @@
+.skills-maincontainer {
+  background-color: #283039;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #e0e9f0;
+}
+.skills-head {
+  color: whitesmoke;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+.skills-container{
+    width: 200px;
+    padding: 10px;
+}
