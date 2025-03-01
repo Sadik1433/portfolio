@@ -1,5 +1,4 @@
 import './index.css'
-import {Link} from 'react-router-dom';
 const Project = (props) =>{
     const{blog} = props
     const {projectName, description, profileImage} = blog

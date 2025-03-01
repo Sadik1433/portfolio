@@ -10,13 +10,21 @@ const blogsdata = [
     profileImage:
       "https://res.cloudinary.com/dnarxeess/image/upload/v1740319048/shoppee_mku4is.jpg",
   },
+  {
+    id: 2,
+    projectName: "Emoji",
+    description:
+      "I'm a passionate [Your Profession, e.g., Web Developer, UI/UX Designer, Software Engineer]",
+    profileImage:
+      "https://res.cloudinary.com/dnarxeess/image/upload/v1740319048/shoppee_mku4is.jpg",
+  },
 ];
 
 const About = () => {
   return (
     <div className="about-container">
       <div className="blogContainer">
-        <ul>
+        <ul className="listItems"> 
           {blogsdata.map((each) => (
             <Project blog={each} key={each.id} />
           ))}
