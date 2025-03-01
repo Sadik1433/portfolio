@@ -4,13 +4,11 @@ import "./index.css";
 const ProfileCard = () => {
   return (
     <div className="card-container">
-      <div className="profile-img">
-        <img
-          src="https://res.cloudinary.com/dnarxeess/image/upload/v1740815545/sadikpic_bj5emf.jpg"
-          alt="profile-image"
-          className="img"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dnarxeess/image/upload/v1740815545/sadikpic_bj5emf.jpg"
+        alt="profile-image"
+        className="img"
+      />
       <div className="text-container">
         <h1 className="profile-text">
           Hi, I am <span className="profile-name">Sadik</span> 👋
@@ -21,7 +19,7 @@ const ProfileCard = () => {
           I love building intuitive and efficient solutions that make a
           difference.
         </p>
-        <div className="icons-conttainer">
+        <div className="icons-container">
           <SocialMedia />
         </div>
       </div>
