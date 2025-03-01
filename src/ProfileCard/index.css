@@ -1,20 +1,17 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color:  #283039;
 }
 .card-container {
-  height: 500px;
-  background-color:  #283039;
+  height: 90vh;
+  background-color: #283039;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 5px  #65a1e6, 0 0 25px  #ec4351,
-    0 0 50px rgb(42, 146, 250), 0 0 100px rgb(245, 250, 255);
+  box-shadow: 0 0 5px #65a1e6, 0 0 25px #ec4351, 0 0 50px rgb(42, 146, 250),
+    0 0 100px rgb(245, 250, 255);
   margin: 20px;
-  padding: 20px;
 }
 .profile-text {
   align-self: flex-start;
@@ -44,12 +41,6 @@
   height: max-content;
   flex-direction: column;
 }
-.profile-image {
-  width: 200px;
-  height: 250px;
-  border: 1px solid coral;
-  border-radius: 1rem;
-}
 .card-Container {
   display: flex;
   flex-direction: column;
@@ -57,17 +48,16 @@
   align-items: center;
 }
 .profile-img {
-  height: 350px;
+  min-height: fit-content;
   align-self: center;
-  width: auto;
   border: 0px groove transparent;
-  box-shadow: 0 0 25px  whitesmoke;
+  box-shadow: 0 0 25px whitesmoke;
   border-radius: 30px;
 }
-.img{
-  height: 350px;
-  width: auto;
-  box-shadow: 0 0 25px  rgb(0, 140, 255);
+.img {
+  min-width: auto;
+  height: 200px;
+  box-shadow: 0 0 25px rgb(0, 140, 255);
   border-radius: 30px;
   border: 0px solid transparent;
 }
@@ -76,16 +66,32 @@
   border: 0px groove transparent;
   box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
     0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
-    border-radius: 50%;
+  border-radius: 50%;
 }
 img:hover {
   border: 0px groove rgb(0, 140, 255);
   box-shadow: whitesmoke;
   box-shadow: 0 0 5px rgb(250, 253, 255), 0 0 25px rgb(248, 252, 255),
-    0 0 50px rgb(245, 250, 255), 0 0 100px rgb(245, 250, 255);
+  0 0 50px rgb(245, 250, 255), 0 0 100px rgb(245, 250, 255);
   border-radius: 50%;
 }
-.icons-conttainer{
-  padding-top: 120px;
+.icons-conttainer {
   display: flex;
 }
+
+  @media screen and (min-width: 768px) {
+    .card-container {
+      flex-direction: row;
+      padding: 10px;
+      text-wrap: wrap;
+    }
+    .img {
+      height:350px ;
+    }
+    .profile-img {
+      order: 2;
+    }
+    .text-container{
+      order: 1;
+    }
+  }

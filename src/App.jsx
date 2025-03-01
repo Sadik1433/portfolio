@@ -7,12 +7,12 @@ import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    <>
+    <div className="AppContainer">
       <Navbar />
       <div> 
         <ProfileCard />
       </div>
-    </>
+    </div>
   );
 };
 export default App;
