@@ -2,7 +2,9 @@
   background-color: #283039;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 20px;
   box-shadow: 0 0 15px #e0e9f0;
 }
@@ -14,6 +16,21 @@
   text-decoration-color: aqua;
 }
 .skills-container{
-    width: 200px;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.icon-container{
+  color: aliceblue;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 2px 0px 5px rgba(0, 204, 255, 0.801);
+  padding-top: 12px;
+  width: 80px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .skills-container{
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
 }

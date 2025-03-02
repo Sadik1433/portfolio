@@ -1,11 +1,6 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 .navbar {
   height: 12vh;
-  width: 100vw;
+  
   top: 0;
   position: sticky;
   display: flex;

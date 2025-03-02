@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./index.css"; 
-
+import { GiFeatheredWing } from "react-icons/gi";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <div className="logo">Sadik </div>
+      <div className="logo"><GiFeatheredWing />Sadik </div>
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <a href="#home">Home</a>
         <a href="#about">About</a>
