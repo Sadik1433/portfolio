@@ -3,6 +3,7 @@ import { FaJava } from "react-icons/fa";
 import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 const Skills = () => {
@@ -30,9 +31,15 @@ const Skills = () => {
         </div>
         <div className="icon-container">
           <p>
-            <SiMysql  size={45} />
+            <SiMysql size={45} />
           </p>
           <span>Sql</span>
+        </div>
+        <div className="icon-container">
+          <p>
+            <IoLogoJavascript size={45} />
+          </p>
+          <span>Javascript</span>
         </div>
         <div className="icon-container">
           <p>
