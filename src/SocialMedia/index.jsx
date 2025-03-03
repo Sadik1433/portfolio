@@ -6,50 +6,50 @@ import { FaLinkedin } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (
-    <ul class="example-2">
-      <li class="icon-content">
+    <ul className="example-2">
+      <li className="icon-content">
         <a
           href="https://linkedin.com/"
           aria-label="LinkedIn"
           data-social="linkedin"
         >
-          <div class="filled"></div>
+          <div className="filled"></div>
           <FaLinkedin className="icons"/>
         </a>
-        <div class="tooltip">LinkedIn</div>
+        <div className="tooltip">LinkedIn</div>
       </li>
-      <li class="icon-content">
+      <li className="icon-content">
         <a
           href="https://www.github.com/"
           aria-label="GitHub"
           data-social="github"
         >
-          <div class="filled"></div>
+          <div className="filled"></div>
           <FaGithub className="icons"/>
         </a>
-        <div class="tooltip">GitHub</div>
+        <div className="tooltip">GitHub</div>
       </li>
-      <li class="icon-content">
+      <li className="icon-content">
         <a
           href="https://www.instagram.com/"
           aria-label="Instagram"
           data-social="instagram"
         >
-          <div class="filled"></div>
+          <div className="filled"></div>
             <BiLogoInstagram className="icons"/>
         </a>
-        <div class="tooltip">Instagram</div>
+        <div className="tooltip">Instagram</div>
       </li>
-      <li class="icon-content">
+      <li className="icon-content">
         <a
           href="https://youtube.com/"
           aria-label="Youtube"
           data-social="youtube"
         >
-          <div class="filled"></div>
+          <div className="filled"></div>
           <FaYoutube className="icons" />
         </a>
-        <div class="tooltip">Youtube</div>
+        <div className="tooltip">Youtube</div>
       </li>
     </ul>
   );

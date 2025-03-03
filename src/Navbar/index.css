@@ -1,6 +1,5 @@
 .navbar {
-  height: 12vh;
-  
+  height: 10vh;
   top: 0;
   position: sticky;
   display: flex;
@@ -8,10 +7,24 @@
   align-items: center;
   background-color:  #283039;
   padding: 15px 20px;
-  color: white;
+  color: white !important;
   border-bottom: 2px solid grey ;
 }
 
+.light {
+  background-color:  #f4f8fc;
+  color: rgb(31, 9, 231) !important;
+}
+
+.theme{
+  height:30px;
+  width: auto;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid transparent;
+  padding: 5px;
+  color: whitesmoke;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -27,10 +40,8 @@
 
 .nav-links a {
   background-color: transparent;
-  color: white;
   font-size: 18px;
   text-decoration: none;
-  padding: 10px;
   font-weight: 500;
 }
 
