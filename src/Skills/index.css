@@ -18,6 +18,7 @@
 .skills-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .icon-container{
   color: aliceblue;
@@ -25,8 +26,7 @@
   font-family: sans-serif;
   text-shadow: 2px 0px 5px rgba(0, 204, 255, 0.801);
   padding-top: 12px;
-  width: 80px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 @media screen and (min-width: 768px) {
   .skills-container{

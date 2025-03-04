@@ -1,7 +1,7 @@
 .navbar {
   height: 10vh;
-  top: 0;
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,11 +10,11 @@
   color: white !important;
   border-bottom: 2px solid grey ;
 }
-
+/* 
 .light {
   background-color:  #f4f8fc;
   color: rgb(31, 9, 231) !important;
-}
+} */
 
 .theme{
   height:30px;
@@ -44,17 +44,18 @@
   text-decoration: none;
   font-weight: 500;
 }
-
+/* 
 .nav-links a:hover {
   background: white;
   border: 2px groove transparent;
   position: relative;
+
   color: aqua;
   font-size: 18px;
   border-radius: 20px;
   box-shadow: 0 0 5px rgb(250, 253, 255), 0 0 25px rgb(248, 252, 255),
     0 0 50px rgb(245, 250, 255), 0 0 100px rgb(245, 250, 255);
-}
+} */
 
 .hamburger {
   display: none;
