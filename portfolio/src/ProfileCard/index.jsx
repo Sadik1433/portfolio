@@ -7,7 +7,7 @@ const ProfileCard = () => {
     <div className="card-container">
       <div className="image-container">
         <img
-          src="https://res.cloudinary.com/dnarxeess/image/upload/v1741190393/edited-removebg-preview_exrydb.png"
+          src="https://res.cloudinary.com/dnarxeess/image/upload/v1741338033/ea06a49abxfpiekhx4xb.png"
           alt="profile-image"
           className="img"
         />
