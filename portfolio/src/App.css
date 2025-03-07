@@ -1,0 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+.AppContainer{
+    background-color: #283039;
+}

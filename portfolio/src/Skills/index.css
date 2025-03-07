@@ -1,0 +1,27 @@
+
+.skills-head {
+  color: whitesmoke;
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 0px 0px 10px rgb(59, 166, 253);
+  text-decoration-color: aqua;
+}
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.icon-container{
+  color: aliceblue;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 2px 0px 5px rgba(0, 204, 255, 0.801);
+  padding-top: 12px;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .skills-container{
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+}

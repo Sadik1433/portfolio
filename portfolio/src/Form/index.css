@@ -1,0 +1,25 @@
+.mainContainer {
+  height: 90vh;
+  margin: 20px;
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #e0e9f0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    border: 2px solid blue;
+    padding: 20px;
+}
+label{
+    color: whitesmoke;
+}
+.inputContainer{
+    height: 30px;
+    outline: none;
+}
