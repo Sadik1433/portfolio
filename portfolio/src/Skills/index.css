@@ -1,27 +1,77 @@
-
-.skills-head {
-  color: whitesmoke;
-  font-size: 25px;
-  text-align: left;
-  text-shadow: 0px 0px 10px rgb(59, 166, 253);
-  text-decoration-color: aqua;
+.skills-maincontainer {
+  height: 90vh;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #e0e9f0;
+  border: 5px groove rgb(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 20px;
 }
-.skills-container{
+.skills-head {
+  color: rgb(253, 0, 0);
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgb(59, 166, 253);
+  text-decoration: double;
+  text-decoration-color: aqua;
+  margin-bottom: 10px;
+}
+.skills-para {
+  align-self: center;
+  font-size: 16px;
+  padding: 10px;
+  text-wrap: wrap;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.para-text {
+  text-align: center;
+}
+.skills-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.icon-container{
+.icon-container {
   color: aliceblue;
   text-align: center;
   font-family: sans-serif;
-  text-shadow: 2px 0px 5px rgba(0, 204, 255, 0.801);
-  padding-top: 12px;
-  margin-left: 15px;
+  border: 5px groove rgb(255, 255, 255, 0.18);
+  border-radius: 15px;
+  box-shadow: 0 0 10px #e0e9f0;
+  padding: 5px;
+  margin: 15px;
 }
 @media screen and (min-width: 768px) {
-  .skills-container{
+  .skills-container {
     justify-content: space-evenly;
-    /* align-items: center; */
+    align-items: center;
+    position:relative;
+  }
+  .icon-container{
+    position: relative;
+    top: 50px;
+  }
+  .icon-container:hover{
+    background: linear-gradient(90deg, #00ffff, #007bff, #8a2be2);
+    /* background-color: rgb(255, 255, 255, 0.18); */
+    border: 5px groove gray;
+    color:whitesmoke;
+    text-shadow: 0px 0px 10px rgb(253, 59, 59);
+  }
+  .skills-para {
+    align-self: center;
+    padding: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    text-wrap: wrap;
+    color: whitesmoke;
+    font-family: sans-serif;
+  }
+  .skills-para:hover {
+    text-shadow: 0px 0px 10px rgb(59, 166, 253);
+    font-style: italic;
   }
 }

@@ -5,4 +5,11 @@
 }
 .AppContainer{
     background-color: #283039;
+    padding-bottom:20px ;
+    position:absolute;
+}
+button:hover{
+    background-color: aqua;
+    color: #f5f8fc;
+    box-shadow: 0px 0px 20px rgba(255, 251, 252, 0.986);
 }

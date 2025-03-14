@@ -1,11 +1,13 @@
 .card-container {
-  height: 80vh;
+  min-height: 100vh;
   background-color: #283039;
+  position: relative;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 5px #65a1e6, 0 0 25px #ec4351, 0 0 50px rgb(42, 146, 250),
-    0 0 100px rgb(245, 250, 255);
+  box-shadow: 0 0 10px #e0e9f0;
+  border: 5px groove rgb(255, 255, 255, 0.18);
   margin: 20px;
   border-radius: 20px;
 }
@@ -16,11 +18,15 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .img {
-  height: 250px;
-  width: min-content;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  clip-path: circle(50% at 50% 50%);
   border-radius: 40%;
   filter: drop-shadow(0px 0px 10px whitesmoke);
 }
@@ -58,7 +64,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-self: center;
+  align-self: flex-end;
   margin-top: 50px;
 }
 
@@ -68,22 +74,37 @@
     padding: 10px;
     text-wrap: wrap;
   }
-  
+
   .image-container {
+    height: 300px;
     order: 2;
     position: relative;
   }
+  .image-container:hover{
+    filter: drop-shadow(0px 0px 50px rgb(252, 255, 255));
+    /* box-shadow:3px 3px 5px rgba(12, 247, 255, 0.986); ; */
+  }
   .img {
-    height: 450px;
+    height: 350px;
     width: fit-content;
     position: absolute;
+    bottom: 30px;
   }
-
+  .resume-container{
+    position: relative;
+    top: 50px;
+  }
+  .resume{
+    padding: 10px;
+    background-color:red;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: whitesmoke;
+  }
   .img:hover {
-    bottom: 50px;
-    background-color: transparent;
+    background-color:transparent;
     border: none;
-    filter: drop-shadow(0px 0px 10px rgba(72, 231, 223, 0.863));
+    filter: drop-shadow(0px 0px 10px rgba(28, 182, 221, 0.863));
   }
   .text-container {
     order: 1;

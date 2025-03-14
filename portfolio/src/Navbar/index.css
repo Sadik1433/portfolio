@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
 .navbar {
-  height: 8vh;
   position: sticky;
   top: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:  #283039;
+  background-color: #283039;
   padding: 15px 20px;
   color: white !important;
-  border-bottom: 2px solid grey ;
+  border-bottom: 2px solid grey;
 }
 /* 
 .light {
@@ -26,17 +28,18 @@
   color: whitesmoke; */
 /* } */
 .logo {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  background-color: transparent;
+  color: #a6f7ec;
 }
-
+.logo:hover{
+  color: rgba(33, 156, 160, 0.795);
+}
 .nav-links {
   display: flex;
   gap: 15px;
   background-color: transparent;
 }
-
 
 .nav-links a {
   background-color: transparent;
@@ -44,13 +47,16 @@
   text-decoration: none;
   font-weight: 500;
 }
-
+.link:hover{
+  color: rgb(249, 255, 255);
+  text-shadow: 3px 3px 15px rgba(12, 247, 255, 0.986);;
+  text-decoration: underline;
+}
 .hamburger {
   display: none;
   font-size: 14px;
   cursor: pointer;
 }
-
 
 @media (max-width: 768px) {
   .nav-links {
@@ -72,9 +78,8 @@
   }
 }
 
-@media  screen and (min-width: 768px) {
-  .navbar{
+@media screen and (min-width: 768px) {
+  .navbar {
     height: 8vh;
   }
-  
 }

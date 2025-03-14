@@ -9,47 +9,51 @@ import { FaPython } from "react-icons/fa";
 const Skills = () => {
   return (
     <div className="skills-maincontainer">
-      <h1 className="skills-head">Skills</h1>
+      <h1 className="skills-head">My Skills</h1>
+      <div className="skills-para">
+          <p className="para-text">Proficient in HTML,CSS,and Javascript.<br />I design and develop captivating web application with seamless functionality.<br />
+          I bring modern , responsive designs to life ensuring a polished and user-friendly experience</p>
+      </div>
       <div className="skills-container">
         <div className="icon-container">
           <p>
-            <FaJava size={45} />
+            <FaJava size={75} />
           </p>
           <span>Java</span>
         </div>
         <div className="icon-container">
           <p>
-            <FaPython size={45} />
+            <FaPython size={75} />
           </p>
           <span>Python</span>
         </div>
         <div className="icon-container">
           <p>
-            <FaReact size={45} />
+            <FaReact size={75} />
           </p>
           <span>React</span>
         </div>
         <div className="icon-container">
           <p>
-            <SiMysql size={45} />
+            <SiMysql size={75} />
           </p>
           <span>Sql</span>
         </div>
         <div className="icon-container">
           <p>
-            <IoLogoJavascript size={45} />
+            <IoLogoJavascript size={75} />
           </p>
           <span>Javascript</span>
         </div>
         <div className="icon-container">
           <p>
-            <TiHtml5 size={45} />
+            <TiHtml5 size={75} />
           </p>
           <span>Html</span>
         </div>
         <div className="icon-container">
           <p>
-            <FaCss3Alt size={45} />
+            <FaCss3Alt size={75} />
           </p>
           <span>Css</span>
         </div>

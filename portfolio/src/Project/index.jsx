@@ -11,12 +11,12 @@ const Project = (props) => {
           {projectName}
         </h1>
         <p className="description">
-          <span className="default-name">Description: </span>
+          <span className="default-name">Languages: </span>
           {description}
         </p>
         <div className="btn-container">
           <button type="button" className="btn">
-            <a href="https://shopee1433.ccbp.tech/">Know More</a>
+            <a href="https://shopee1433.ccbp.tech/">Open</a>
           </button>
         </div>
       </div>

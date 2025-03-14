@@ -1,0 +1,13 @@
+.mainContact {
+  margin: 20px 20px 0px 20px;
+  color: whitesmoke;
+  padding-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #e0e9f0;
+  border: 5px groove rgb(255, 255, 255, 0.18);
+  border-radius: 20px;
+  text-align: center;
+}
+.form-container{
+    height: 90vh;
+}

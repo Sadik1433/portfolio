@@ -1,8 +1,13 @@
 import "./index.css";
+import Form from '../Form'
+
 const Contact = () => {
   return (
-    <div className="contact-conatainer">
-      <h1>Contact</h1>
+    <div className="mainContact">
+      <h1>Contact Me!</h1>
+      <div className="form-container">
+        <Form />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import SocialMedia from "../SocialMedia";
-import Skills from '../Skills'
 import "./index.css";
 
 const ProfileCard = () => {
@@ -7,10 +6,10 @@ const ProfileCard = () => {
     <div className="card-container">
       <div className="image-container">
         <img
-          src="https://res.cloudinary.com/dnarxeess/image/upload/v1741338033/ea06a49abxfpiekhx4xb.png"
+          src="https://res.cloudinary.com/dnarxeess/image/upload/v1741190393/edited-removebg-preview_exrydb.png"
           alt="profile-image"
           className="img"
-        />
+          />
       </div>
       <div className="text-container">
         <h1 className="profile-text">
@@ -25,8 +24,10 @@ const ProfileCard = () => {
         <div className="icons-container">
           <SocialMedia />
         </div>
-        <div>
-          <Skills />
+        <div className="resume-container">
+          <button type="button" className="resume">
+            Download Resume
+          </button>
         </div>
       </div>
     </div>
